@@ -1,0 +1,90 @@
+
+.navbars{
+    font-family:cursive ;
+    background-color:  aliceblue;
+    color: black;
+}
+.logo{
+    background-image: url("../Images/worker-img.jpg");
+    width: 100px;
+    background-size: cover;
+    height: 70px;
+    
+}
+.hoh{
+   transition-property: all;
+   transition-duration: 1s;
+   transition-timing-function:ease-in;
+}
+.hoh:hover{
+    border: 2px solid blue;
+    /* background-color: blue; */
+    border-radius: 5px;
+    font-size: 2rem;
+    width: auto;
+    position: relative;
+    top: -17px;
+    
+}
+.borders{
+    border: 2px solid black;
+}
+.cat{
+
+}
+.hel{
+    width: 100px;
+    height: 20px;
+}
+
+.cat P{
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    color: #282c3f;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.catCOn{
+    /* width: 90%;
+    height: 30px;
+    border: 2px solid #282c3f;
+    margin: 0;     */
+    background-color: aliceblue;
+}
+
+.catConBorder:hover{
+    border: 2px solid transparent;
+  
+}
+
+.catConBorder:hover{
+    border: 2px solid burlywood ;
+  
+}
+.dataCat{
+    margin: 0;
+}
+.btSty{
+    margin:20px;
+}
+
+@media (min-width:996px){
+    .catToggle{
+        display: none;
+        }
+}
+
+@media (max-width:996px) {
+    .cat{
+          display: none;
+    }
+    .cat P{
+        margin-left: 10px;
+        margin-bottom: 6px;
+    }
+    .catToggle{
+       
+        }
+    
+}
