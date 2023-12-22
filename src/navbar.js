@@ -1,6 +1,6 @@
 import React from "react";
 import "./CSS/navbar.css";
-
+import {NavLink} from "react-router-dom"
 const Navbar = () => {
 
   return (
@@ -26,6 +26,7 @@ const Navbar = () => {
                   <p>BUILDER</p>
                   <p>PAINTER</p>
                   <p>HOUSE-APPLIANCES</p>
+                  <NavLink className="login" style={{textDecoration:"none",color:"#000000",fontSize:"0.85rem"}} to="/login-signup">Login/Sign-Up</NavLink>
                 </div>
               </div>
             </div>

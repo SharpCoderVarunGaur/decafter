@@ -1,6 +1,10 @@
 import React from "react";
 import "./CSS/profileEmp.css";
 import logo from "./Images/worker-1.jpg";
+import logo2 from "./Images/worker-2.avif";
+import logo3 from "./Images/worker-5.avif";
+import logo4 from "./Images/worker-img.jpg";
+
 
 const profileEmp = () => {
   return (
@@ -57,7 +61,7 @@ const profileEmp = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-10 col-md-9 col-8">
+          <div className="col-lg-10 col-md-9 col-12">
             {/* <div className='row row-col-lg-4 row-col-sm-3 justify-content-start'>
                     <div className='col-lg-3 col-sm-4 mt-2' >
                        <div className='Cards d-flex justify-content-center'>
@@ -110,8 +114,8 @@ const profileEmp = () => {
                     </div>
                 </div> */}
             <div className="CardsRow">
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
                   <img className="img-sec" src={logo} alt="" />
 
                   <div className="description">
@@ -123,74 +127,186 @@ const profileEmp = () => {
                   </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo2} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo3} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo2} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex   ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo3} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo4} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo3} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo2} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
                   <img className="img-sec" src={logo} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo4} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo2} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo4} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo3} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
                   <img className="img-sec" src={logo} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
-              <div className="Cards d-flex  ">
-                <div className="CardsView">
-                  <img className="img-sec" src={logo} alt="" />
+              <div className="Cards d-flex" >
+                <div className="CardsView" >
+                  <img className="img-sec" src={logo2} alt="" />
+
+                  <div className="description">
+                    <h5 className=" p-1" style={{margin:0}}>{`Name : Varun Gaur`}</h5>
+                    <p className="p-1"  style={{margin:0}}>{`Rating : 3.5`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Total-Exp : 10years`} </p>
+                    <p className="p-1"  style={{margin:0}}>{`Specification : React-Developer`} </p>
+                  
+                  </div>
                 </div>
               </div>
             </div>

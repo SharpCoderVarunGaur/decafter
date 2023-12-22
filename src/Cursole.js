@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "./Images/worker-2.avif"
 import logo2 from "./Images/worker-1.jpg"
-import logo3 from "./Images/worker-3.webp"
+import logo3 from "./Images/worker-5.avif"
 import ProfileEmp from './profileEmp'
 
 const Cursole = () => {
@@ -32,8 +32,11 @@ const Cursole = () => {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>  
+</div>   
+ <div>
+
    <ProfileEmp />
+ </div>
       
     </>
   )
