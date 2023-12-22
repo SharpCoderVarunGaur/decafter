@@ -1,0 +1,63 @@
+.body{
+
+}
+.CardsRow{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.Cards{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+  
+}
+
+.CardsView{
+   background-color: white;
+   width: 300px;
+   height: 300px;
+   border-radius: 20px;
+}
+.img-sec{
+    width: 100%;
+    height: 50%;
+}
+.checkpoints{
+    position:sticky;
+    top:0;
+    bottom: 0;
+    margin-top: 10px;
+    background-color: white;
+    height: 100vh;
+   
+}
+.checkpoint{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 0.85rem;
+    
+}
+
+.cl{
+  margin-bottom: 10px;  
+}
+
+.description{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3px;
+    font-size: 0.85rem;
+    
+}
+
+@media (max-width:831px){
+
+    .CardsView{
+        background-color: white;
+        width: 100%;
+     
+        border-radius: 20px;
+     }
+}

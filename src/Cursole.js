@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "./Images/worker-2.avif"
 import logo2 from "./Images/worker-1.jpg"
 import logo3 from "./Images/worker-3.webp"
-import "./CSS/secmain.css"
+import ProfileEmp from './profileEmp'
 
 const Cursole = () => {
   return (
@@ -33,7 +33,7 @@ const Cursole = () => {
     <span class="visually-hidden">Next</span>
   </button>
 </div>  
-   
+   <ProfileEmp />
       
     </>
   )
