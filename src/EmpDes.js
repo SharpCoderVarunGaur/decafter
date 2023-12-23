@@ -9,18 +9,18 @@ const EmpDes = () => {
 
     useEffect(()=>{
         console.log("id",id)
-        if(id===1){
+        if(id==="1"){
             setName("Plumber")
         }
-        else if(id===2){
+        else if(id==="2"){
               setName("Electricin")
-        }else if(id===3){
+        }else if(id==="3"){
             setName("Car-Mechanic")
-        }else if(id===4){
+        }else if(id==="4"){
             setName("Builder")
-        }else if(id===5){
+        }else if(id==="5"){
             setName("Painter")
-        }else if(id===6){
+        }else if(id==="6"){
             setName("House-Appliances")
         }
 
