@@ -1,12 +1,14 @@
 import React from "react";
 import "./CSS/navbar.css";
-import {NavLink} from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom";
+import Cursole from "./Cursole";
 const Navbar = () => {
+  const navigate = useNavigate();
 
   return (
     <>
-      <header>
-        <div className="container-fluid">
+      <header className="NavParent">
+        <div className="container-fluid NavBarss">
           <div
             className="cat row navbars justify-content-between align-items-start"
             style={{ padding: 0 }}
@@ -20,13 +22,86 @@ const Navbar = () => {
                   className="d-flex  justify-content-around"
                   style={{ padding: 0 }}
                 >
-               <p className="">PLUMBER</p>
-                  <p>ELECTRICIAN</p>
-                  <p>CAR-MECAHNIC</p>
-                  <p>BUILDER</p>
-                  <p>PAINTER</p>
-                  <p>HOUSE-APPLIANCES</p>
-                  <NavLink className="login" style={{textDecoration:"none",color:"#000000",fontSize:"0.85rem"}} to="/login-signup">Login/Sign-Up</NavLink>
+                  <NavLink
+                    className="login"
+                    style={{
+                      textDecoration: "none",
+                      color: "#000000",
+                      fontSize: "0.85rem",
+                    }}
+                    to="/Emp-Des/1"
+                  >
+                    PLUMBER
+                  </NavLink>
+                  <NavLink
+                    className="login"
+                    style={{
+                      textDecoration: "none",
+                      color: "#000000",
+                      fontSize: "0.85rem",
+                    }}
+                    to="/Emp-Des/2"
+                  >
+                    ELECTRICIAN
+                  </NavLink>
+
+                  <NavLink
+                    className="login"
+                    style={{
+                      textDecoration: "none",
+                      color: "#000000",
+                      fontSize: "0.85rem",
+                    }}
+                    to="/Emp-Des/3"
+                  >
+                    CAR-MECAHNIC
+                  </NavLink>
+
+                  <NavLink
+                    className="login"
+                    style={{
+                      textDecoration: "none",
+                      color: "#000000",
+                      fontSize: "0.85rem",
+                    }}
+                    to="/Emp-Des/4"
+                  >
+                    BUILDER
+                  </NavLink>
+                  <NavLink
+                    className="login"
+                    style={{
+                      textDecoration: "none",
+                      color: "#000000",
+                      fontSize: "0.85rem",
+                    }}
+                    to="/Emp-Des/5"
+                  >
+                    PAINTER
+                  </NavLink>
+                  <NavLink
+                    className="login"
+                    style={{
+                      textDecoration: "none",
+                      color: "#000000",
+                      fontSize: "0.85rem",
+                    }}
+                    to="/Emp-Des/6"
+                  >
+                    HOUSE-APPLIANCES
+                  </NavLink>
+
+                  <NavLink
+                    className="login"
+                    style={{
+                      textDecoration: "none",
+                      color: "#000000",
+                      fontSize: "0.85rem",
+                    }}
+                    to="/login-signup"
+                  >
+                    Login/Sign-Up
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -64,12 +139,104 @@ const Navbar = () => {
             <div class="collapse order-2" id="navbarSupportedContent">
               <div className="row justify-content-center">
                 <div className="col-12">
-                  <ul class="list-group list-group-flush" style={{backgroundColor:"none"}}>
-                    <li class="list-group-item catCOn catConBorder mb-2">MEN</li>
-                    <li class="list-group-item catCOn catConBorder mb-2">WOMEN</li>
-                    <li class="list-group-item catCOn catConBorder mb-2">KIDS</li>
-                    <li class="list-group-item catCOn  catConBorder mb-2">HOME & LIVING</li>
-                    <li class="list-group-item catCOn  catConBorder"> STUDIO</li>
+                  <ul
+                    class="list-group list-group-flush"
+                    style={{ backgroundColor: "none" }}
+                  >
+                    <li class="list-group-item catCOn catConBorder mb-2">
+                      <NavLink
+                        className="login"
+                        style={{
+                          textDecoration: "none",
+                          color: "#000000",
+                          fontSize: "0.85rem",
+                        }}
+                        to="/Emp-Des/1"
+                      >
+                        PLUMBER
+                      </NavLink>
+                    </li>
+                    <li class="list-group-item catCOn catConBorder mb-2">
+                      {" "}
+                      <NavLink
+                        className="login"
+                        style={{
+                          textDecoration: "none",
+                          color: "#000000",
+                          fontSize: "0.85rem",
+                        }}
+                        to="/Emp-Des/2"
+                      >
+                        ELECTRICIAN
+                      </NavLink>
+                    </li>
+                    <li class="list-group-item catCOn catConBorder mb-2">
+                      {" "}
+                      <NavLink
+                        className="login"
+                        style={{
+                          textDecoration: "none",
+                          color: "#000000",
+                          fontSize: "0.85rem",
+                        }}
+                        to="/Emp-Des/3"
+                      >
+                        CAR-MECAHNIC
+                      </NavLink>
+                    </li>
+                    <li class="list-group-item catCOn  catConBorder mb-2">
+                      <NavLink
+                        className="login"
+                        style={{
+                          textDecoration: "none",
+                          color: "#000000",
+                          fontSize: "0.85rem",
+                        }}
+                        to="/Emp-Des/4"
+                      >
+                        BUILDER
+                      </NavLink>
+                    </li>
+                    <li class="list-group-item catCOn  catConBorder">
+                      {" "}
+                      <NavLink
+                        className="login"
+                        style={{
+                          textDecoration: "none",
+                          color: "#000000",
+                          fontSize: "0.85rem",
+                        }}
+                        to="/Emp-Des/5"
+                      >
+                        PAINTER
+                      </NavLink>
+                    </li>
+                    <li class="list-group-item catCOn  catConBorder">
+                      <NavLink
+                        className="login"
+                        style={{
+                          textDecoration: "none",
+                          color: "#000000",
+                          fontSize: "0.85rem",
+                        }}
+                        to="/Emp-Des/6"
+                      >
+                        HOUSE-APPLIANCES
+                      </NavLink>
+                    </li>
+                    <li class="list-group-item catCOn  catConBorder">
+                      <NavLink
+                        className="login"
+                        style={{
+                          textDecoration: "none",
+                          color: "#000000",
+                          fontSize: "0.85rem",
+                        }}
+                        to="/login-signup"
+                      >
+                        Login/Sign-Up
+                      </NavLink>
+                    </li>
                   </ul>
                 </div>
                 {/* <div className="col-12 catCOn mt-3" style={{ padding: 0 }}>
@@ -120,9 +287,6 @@ const Navbar = () => {
           </div>
         </div>
       </header>
-
-
-      
     </>
   );
 };

@@ -4,6 +4,15 @@
     background-color:  aliceblue;
     color: black;
 }
+/* .NavParent{
+    position:relative;
+}
+.NavBarss{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+} */
 .logo{
     background-image: url("../Images/worker-img.jpg");
     width: 100px;
