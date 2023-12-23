@@ -1,9 +1,8 @@
 import React from "react";
 import "./CSS/navbar.css";
-import { NavLink, useNavigate } from "react-router-dom";
-import Cursole from "./Cursole";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
-  const navigate = useNavigate();
+
 
   return (
     <>
