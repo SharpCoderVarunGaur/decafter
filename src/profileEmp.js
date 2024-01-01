@@ -19,16 +19,8 @@ const [realData,setRealData]=useState([])
 
 useEffect(()=>{
   setRealData(Array.isArray(data)? data :[])
-  
 },[data])  
 
-useEffect(()=>{
-//  const sData=JSON.parse(sessionStorage.getItem("RealData"))
-//  console.log("realData",sData)
-//    if(sData){
-//     setRealData(Array.isArray(sData) ? sData:[])
-//    }
-},[])  
 
   return (
     <>

@@ -20,19 +20,19 @@ const EmpDes = () => {
     })
     const {id}=param
 
-    const apiCall=()=>{
-    //  const data= await axios.get("http://localhost:9091/Role")
-    //  console.log("data",data.data)
-    console.log("data",data)
-      setDescData(Array.isArray(data)? data :[])
+    // const apiCall=async()=>{
+    // //  const data= await axios.get("http://localhost:9091/Role")
+    // //  console.log("data",data.data)
+    // console.log("data",data)
+    //   setDescData(Array.isArray(data)? data :[])
 
-    }
+    // }
 
     useEffect(()=>{
-
-      apiCall()
+      console.log("data",data)
+      setDescData(Array.isArray(data)? data :[])
+      // apiCall()
       console.log("id",id) 
-
       if(id==="1"){
           setName("Plumber")
       }
@@ -46,55 +46,9 @@ const EmpDes = () => {
           setName("Painter")
       }else if(id==="6"){
           setName("House-Appliances")
-      }
-
-     
+      }     
       setData2(descData.filter((d,i)=>d.specification===id))
-
-      if(descData.length>0){
-
-      //   setData2(descData.filter((d,i)=>{
-      //     if(id==="1"){
-      //       if(d.roleName==="Plumber"){
-      //          return true
-      //      }else{
-      //       return false
-      //      }
-      //     } else if(id==="2"){
-      //       if(d.roleName==="Electricin"){
-      //         return true
-      //     }else{
-      //      return false
-      //     }
-      // }else if(id==="3"){
-      //   if(d.roleName==="Car-Mechanic"){
-      //     return true
-      // }else{
-      //  return false
-      // }
-      // }else if(id==="4"){
-      //   if(d.roleName==="Builder"){
-      //     return true
-      // }else{
-      //  return false
-      // }
-      // }else if(id==="5"){
-      //   if(d.roleName==="Painter"){
-      //     return true
-      // }else{
-      //  return false
-      // }
-      // }else if(id==="6"){
-      //   if(d.roleName==="House-Appliances"){
-      //     return true
-      // }else{
-      //  return false
-      // }
-      // }
-      //   }
-      //     ))
-      }
-    },[descData,id])
+    },[descData,id,data])
     
   return (
    <>
