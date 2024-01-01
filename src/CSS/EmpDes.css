@@ -29,6 +29,6 @@
     }
     .Cards-individual:hover{
         box-shadow:  5px 10px 12px  rgba(67, 10, 10, 0.3);
-       height: 320px;
+       height: 340px;
     }
 }
