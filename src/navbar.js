@@ -99,7 +99,7 @@ const Navbar = () => {
                     }}
                     to="/login-signup"
                   >
-                    Login/Sign-Up
+                    ADD/Worker
                   </NavLink>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const Navbar = () => {
             </div>
             <div className="col-2  btSty">
               <button
-                class="btn borders"
+                className="btn borders"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -135,14 +135,14 @@ const Navbar = () => {
                 <i className="fa-solid fa-bars " style={{ color: "#aba6a6" }} />
               </button>
             </div>
-            <div class="collapse order-2" id="navbarSupportedContent">
+            <div className="collapse order-2" id="navbarSupportedContent">
               <div className="row justify-content-center">
                 <div className="col-12">
                   <ul
-                    class="list-group list-group-flush"
+                    className="list-group list-group-flush"
                     style={{ backgroundColor: "none" }}
                   >
-                    <li class="list-group-item catCOn catConBorder mb-2">
+                    <li className="list-group-item catCOn catConBorder mb-2">
                       <NavLink
                         className="login"
                         style={{
@@ -155,7 +155,7 @@ const Navbar = () => {
                         PLUMBER
                       </NavLink>
                     </li>
-                    <li class="list-group-item catCOn catConBorder mb-2">
+                    <li className="list-group-item catCOn catConBorder mb-2">
                       {" "}
                       <NavLink
                         className="login"
@@ -169,7 +169,7 @@ const Navbar = () => {
                         ELECTRICIAN
                       </NavLink>
                     </li>
-                    <li class="list-group-item catCOn catConBorder mb-2">
+                    <li className="list-group-item catCOn catConBorder mb-2">
                       {" "}
                       <NavLink
                         className="login"
@@ -183,7 +183,7 @@ const Navbar = () => {
                         CAR-MECAHNIC
                       </NavLink>
                     </li>
-                    <li class="list-group-item catCOn  catConBorder mb-2">
+                    <li className="list-group-item catCOn  catConBorder mb-2">
                       <NavLink
                         className="login"
                         style={{
@@ -196,7 +196,7 @@ const Navbar = () => {
                         BUILDER
                       </NavLink>
                     </li>
-                    <li class="list-group-item catCOn  catConBorder">
+                    <li className="list-group-item catCOn  catConBorder">
                       {" "}
                       <NavLink
                         className="login"
@@ -210,7 +210,7 @@ const Navbar = () => {
                         PAINTER
                       </NavLink>
                     </li>
-                    <li class="list-group-item catCOn  catConBorder">
+                    <li className="list-group-item catCOn  catConBorder">
                       <NavLink
                         className="login"
                         style={{
@@ -223,7 +223,7 @@ const Navbar = () => {
                         HOUSE-APPLIANCES
                       </NavLink>
                     </li>
-                    <li class="list-group-item catCOn  catConBorder">
+                    <li className="list-group-item catCOn  catConBorder">
                       <NavLink
                         className="login"
                         style={{
