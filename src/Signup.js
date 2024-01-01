@@ -44,6 +44,7 @@ const initialValues = {
 
 const Signup = () => {
   const navigate=useNavigate()
+  
   const [details, setDetails] = useState(false);
   const [imageProfile,setImageProfile]=useState(logo)
   const dispatch=useDispatch();
