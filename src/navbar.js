@@ -233,7 +233,7 @@ const Navbar = () => {
                         }}
                         to="/login-signup"
                       >
-                        Login/Sign-Up
+                       ADD/Worker
                       </NavLink>
                     </li>
                   </ul>
