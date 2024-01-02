@@ -116,7 +116,6 @@ try{
     // sessionStorage.setItem("RealData",JSON.stringify(dataSes))
     dispatch(addDataUser(payload))
     navigate('/')
-    
   }else{
     alert("please fill details first")
   }
@@ -349,7 +348,7 @@ try{
                     }}
                     type="Submit"
                   >
-                  {'+ ADD'}
+                  {'Submit'}
                   </button>
 
                 </form>

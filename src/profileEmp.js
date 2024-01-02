@@ -157,7 +157,7 @@ useEffect(()=>{
                 </div>
               </div>
               )
-            })}
+            }).reverse()}
               <div className="Cards d-flex">
                 <div className="CardsView">
                   <img className="img-sec" src={logo} alt="" />

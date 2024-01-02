@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CSS/navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 const Navbar = () => {
-
+  const [isCollapsed, setIsCollapsed] = useState(false);
+ const navigat=useNavigate()
+  const handleNavBar=()=>{
+    console.log("helloshandle")
+    setIsCollapsed(!isCollapsed);
+  }
+  const handleNavigation=(path)=>{
+  navigat(path);
+  }
 
   return (
     <>
@@ -129,33 +137,40 @@ const Navbar = () => {
               <button
                 className="btn borders"
                 type="button"
+                onClick={handleNavBar}
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
               >
                 <i className="fa-solid fa-bars " style={{ color: "#aba6a6" }} />
               </button>
             </div>
-            <div className="collapse order-2" id="navbarSupportedContent">
+            <div className={`collapse ${isCollapsed ?'show':""} order-2`} id="navbarSupportedContent">
               <div className="row justify-content-center">
                 <div className="col-12">
                   <ul
-                    className="list-group list-group-flush"
+                    className="list-group list-group-flush "
                     style={{ backgroundColor: "none" }}
                   >
-                    <li className="list-group-item catCOn catConBorder mb-2">
+                    <li className="list-group-item catCOn catConBorder  mt-2" onClick={()=>{
+                      handleNavigation("/Emp-Des/1")
+                      handleNavBar()
+                    }}>
                       <NavLink
-                        className="login"
+                        className="login "
                         style={{
                           textDecoration: "none",
                           color: "#000000",
                           fontSize: "0.85rem",
                         }}
-                        to="/Emp-Des/1"
+                        // to="/Emp-Des/1"
                       >
                         PLUMBER
                       </NavLink>
                     </li>
-                    <li className="list-group-item catCOn catConBorder mb-2">
+                    <li className="list-group-item catCOn catConBorder "  onClick={()=>{
+                      handleNavigation("/Emp-Des/2")
+                      handleNavBar()
+                    }}>
                       {" "}
                       <NavLink
                         className="login"
@@ -164,12 +179,16 @@ const Navbar = () => {
                           color: "#000000",
                           fontSize: "0.85rem",
                         }}
+                        onClick={handleNavBar}
                         to="/Emp-Des/2"
                       >
                         ELECTRICIAN
                       </NavLink>
                     </li>
-                    <li className="list-group-item catCOn catConBorder mb-2">
+                    <li className="list-group-item catCOn catConBorder "  onClick={()=>{
+                      handleNavigation("/Emp-Des/3")
+                      handleNavBar()
+                    }}>
                       {" "}
                       <NavLink
                         className="login"
@@ -178,12 +197,16 @@ const Navbar = () => {
                           color: "#000000",
                           fontSize: "0.85rem",
                         }}
+                        onClick={handleNavBar}
                         to="/Emp-Des/3"
                       >
                         CAR-MECAHNIC
                       </NavLink>
                     </li>
-                    <li className="list-group-item catCOn  catConBorder mb-2">
+                    <li className="list-group-item catCOn  catConBorder "  onClick={()=>{
+                      handleNavigation("/Emp-Des/4")
+                      handleNavBar()
+                    }}>
                       <NavLink
                         className="login"
                         style={{
@@ -191,12 +214,16 @@ const Navbar = () => {
                           color: "#000000",
                           fontSize: "0.85rem",
                         }}
+                        onClick={handleNavBar}
                         to="/Emp-Des/4"
                       >
                         BUILDER
                       </NavLink>
                     </li>
-                    <li className="list-group-item catCOn  catConBorder">
+                    <li className="list-group-item catCOn  catConBorder"  onClick={()=>{
+                      handleNavigation("/Emp-Des/5")
+                      handleNavBar()
+                    }}>
                       {" "}
                       <NavLink
                         className="login"
@@ -205,12 +232,16 @@ const Navbar = () => {
                           color: "#000000",
                           fontSize: "0.85rem",
                         }}
+                        onClick={handleNavBar}
                         to="/Emp-Des/5"
                       >
                         PAINTER
                       </NavLink>
                     </li>
-                    <li className="list-group-item catCOn  catConBorder">
+                    <li className="list-group-item catCOn  catConBorder"  onClick={()=>{
+                      handleNavigation("/Emp-Des/6")
+                      handleNavBar()
+                    }}>
                       <NavLink
                         className="login"
                         style={{
@@ -218,12 +249,16 @@ const Navbar = () => {
                           color: "#000000",
                           fontSize: "0.85rem",
                         }}
+                        onClick={handleNavBar}
                         to="/Emp-Des/6"
                       >
                         HOUSE-APPLIANCES
                       </NavLink>
                     </li>
-                    <li className="list-group-item catCOn  catConBorder">
+                    <li className="list-group-item catCOn  catConBorder  " onClick={()=>{
+                      handleNavigation("/login-signup")
+                      handleNavBar()
+                    }}>
                       <NavLink
                         className="login"
                         style={{
@@ -231,6 +266,7 @@ const Navbar = () => {
                           color: "#000000",
                           fontSize: "0.85rem",
                         }}
+                        onClick={handleNavBar}
                         to="/login-signup"
                       >
                        ADD/Worker
