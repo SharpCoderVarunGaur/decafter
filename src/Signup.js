@@ -6,6 +6,8 @@ import { useDispatch } from "react-redux";
 import { addDataUser } from "./store/Slice/UserSlice";
 import logo from "./Images/worker-img.jpg";
 import { useNavigate } from "react-router-dom";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const signUpSchema = Yup.object({
   names: Yup.string()
@@ -115,6 +117,13 @@ try{
   if(payload.name!==""){
     // sessionStorage.setItem("RealData",JSON.stringify(dataSes))
     dispatch(addDataUser(payload))
+    toast.success("SuccessFully Added",{
+      position: "top-center",
+      autoClose: 2000,
+     hideProgressBar: true,
+     theme: "light",
+
+    })
     navigate('/')
   }else{
     alert("please fill details first")
@@ -350,6 +359,7 @@ try{
                   >
                   {'Submit'}
                   </button>
+             
 
                 </form>
               </div>

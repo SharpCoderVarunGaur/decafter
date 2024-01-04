@@ -10,7 +10,7 @@ import boy2 from './Images/boy2con.jpg'
 import boy3 from './Images/boy3.jpeg'
 import boy4 from './Images/boy4.jpeg'
 import { useSelector } from "react-redux";
-
+import { ToastContainer} from 'react-toastify';
 const ProfileEmp = () => {
 const [realData,setRealData]=useState([])
   const data= useSelector((state)=>{
@@ -24,6 +24,7 @@ useEffect(()=>{
 
   return (
     <>
+         <ToastContainer />
       <div className="container-fluid">
         <div className="row align-items-start">
           <div
